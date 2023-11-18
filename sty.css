@@ -15,7 +15,6 @@
     opacity: 90%;
 }
 .wrap{
-    width: 50%;
     position: relative;
 }
 .content{
@@ -38,7 +37,6 @@
     opacity: 90%;
 }
 .wrap2{
-    width: 50%;
     position: relative;
 }
 .content2{
@@ -165,3 +163,11 @@ color: #33cba8;
 .row1{
     padding-top: 4%;
 }
+@media (min-width: 575px){
+    .wrap{
+        width: 50%;
+    }
+    .wrap2{
+        width: 50%;
+    }
+}    
