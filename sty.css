@@ -1,0 +1,167 @@
+.nav-link {
+    text-align: right;
+    color: black;
+    font-family: 'Monserrat Black';
+    font-style: strong;
+}
+.dropdown-menu {
+    display: none;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.men {
+    width: 100%;
+    opacity: 90%;
+}
+.wrap{
+    width: 50%;
+    position: relative;
+}
+.content{
+    position:absolute;
+    bottom: 40%;
+    left: 45%;
+}
+.content{
+    display: none;
+}
+.wrap:hover .content{
+    display: block;
+}
+.wrap:hover .men{
+    opacity: 50%;
+}
+
+.woman{
+    width: 100%;
+    opacity: 90%;
+}
+.wrap2{
+    width: 50%;
+    position: relative;
+}
+.content2{
+    position:absolute;
+    bottom: 40%;
+    left: 45%;
+}
+.content2{
+    display: none;
+}
+.wrap2:hover .content2{
+    display: block;
+}
+.wrap2:hover .woman{
+    opacity: 50%;
+}
+
+
+.ill{
+    width: 100%;
+}
+.ily{
+    /* width: 25%; */
+    position: relative;
+    padding: 0%;
+}
+.cap{
+    position:absolute;
+    bottom: 0%;
+    left: 5%;
+}
+.cap{
+    display: none;
+}
+.ily:hover .cap{
+    display: block;
+}
+.text{
+    color: black;
+    background-color: antiquewhite;
+    text-decoration: none;
+    font-size: large;
+}
+/* @media (min-width:900px) {
+    .ily{
+        width: 25%;
+    }
+}
+@media (max-width:360px){
+    .ily{
+        width:50%
+    }
+} */
+.woill{
+    width: 100%;
+}
+.woily{
+    position: relative;
+    padding: 0%;
+}
+.wotext{
+    color: black;
+    background-color: rgb(241, 87, 149);
+    text-decoration: none;
+    font-size: large;
+}
+.wocap{
+    position:absolute;
+    bottom: 0%;
+    left: 5%;
+}
+.wocap{
+    display: none;
+}
+.woily:hover .wocap {
+    display: block;
+}
+footer{
+    text-align: center;
+}
+.fp{
+    width: 100%;
+}
+.fwebp{
+    width: 100%;
+}
+.shopnow h1{
+    text-align: center;
+    /* padding-top: 50%; */
+}
+.shopnow p{
+    text-align: center;
+}
+.newtext{
+    position: absolute;
+}
+@media (max-width:990px){
+    .shopnow h1{
+        padding: 5%;
+    }
+}
+@media (min-width:991px){
+    .shopnow h1{
+        padding-top: 50%;
+    }
+}
+.pad{
+    padding: 0% ;
+}
+.wrap{
+    padding: 0%;
+}
+.wrap2{
+    padding: 0%;
+}
+.nav-link:hover{
+color: #33cba8;
+}
+
+.dropdown-item:hover{
+    color: #33cba8;
+}
+
+.row1{
+    padding-top: 4%;
+}
